@@ -1,19 +1,27 @@
-# Write your default config options here!
+no-input-default-bindings
+fs-missioncontrol
+volume=100
+hwdec=vda
+autofit-larger=95%x95%
+hr-seek-framedrop=yes
 
-#no-input-default-bindings
 vo=opengl-hq:icc-profile-auto:approx-gamma
 #vf=unsharp=3:3:0.5
 
-osd-font-size=20
-osd-margin-y=6
-osd-font="Helvetica"
-osd-bar-h=4
-osd-duration=1400
-
-
 slang=en,eng,English
 alang=jp,jpn,Japanese,en,eng,English
+ass-force-style=Kerning=yes
+sub-text-font="Helvetica"
+demuxer-mkv-subtitle-preroll
+
 screenshot-format=png
 screenshot-template=/Users/alex/Pictures/Screencaps/%f_%th_%td_%tY_%tl.%tM.%tS_%tp
 
-volume=100
+osd-font-size=20
+osd-bar-h=3
+osd-bar-w=85
+osd-bar-align-y=0.64
+osd-border-size=2
+osd-margin-y=6
+osd-font="Helvetica"
+osd-duration=1700

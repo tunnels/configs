@@ -14,13 +14,16 @@ HISTFILE=~/.zsh_history
 alias ls='ls -G'
 alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES && killall Finder'
 alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
+
+#alias python='python3' # breaks notifications.py #
+
 alias update='brew update; brew upgrade; brew reinstall --HEAD mpv'
 alias dupe='/Users/alex/Scripts/dupe.sh'
 alias rfiles='/Users/alex/Scripts/rfiles.sh'
 alias gif='/Users/alex/Scripts/gif.sh'
 alias webm='/Users/alex/Scripts/webm.sh'
-alias fate='LC_ALL=ja_JP.UTF-8 wine /Volumes/Media/Games/Fate:stay\ night\ \[Realta\ Nua\]/Fate／stay\ night\[Realta\ Nua\]\ -Fate-/Fate／stay\ night\[Realta\ Nua\]\ -Fate-.exe'
-alias hf="LC_ALL=ja.JP-UTF-8 wine /Volumes/Media/Games/Fate:stay\ night\ \[Realta\ Nua\]/Fate／stay\ night\[Realta\ Nua\]\ -Heaven\'s\ Feel-/FateHF_english.exe"
+alias lb='LC_ALL=ja_JP.UTF-8 wine /Volumes/Media/Games/Little\ Busters\!/REALLIVE.exe'
+
 
 # vrms
 alias rms=print "" 
@@ -45,6 +48,7 @@ alias rsongs='mpc clear; mpc listall | gshuf -n10 | mpc add && mpc play'
 
 # Paths
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+export FPATH=/usr/local/share/zsh/site-functions:$FPATH
 
 #Keybinds 
 #make search up and down work, so partially type and hit up/down to find relevant stuff
