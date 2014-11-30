@@ -1,11 +1,13 @@
+no-osc
 no-input-default-bindings
-fs-missioncontrol
+#fs-missioncontrol
 volume=100
 hwdec=vda
 autofit-larger=95%x95%
 hr-seek-framedrop=yes
 
 vo=opengl-hq:icc-profile-auto:approx-gamma
+vf=gradfun
 #vf=unsharp=3:3:0.5
 
 slang=en,eng,English
