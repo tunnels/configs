@@ -1,16 +1,16 @@
 #!/bin/bash
 
-if [ -d ~/Desktop/rfiles_shuffle ]; then
-	rm ~/Desktop/rfiles_shuffle/*
+dirName="$2"
+
+if [ -d ~/Desktop/$dirName ]; then
+	dirName="rfiles"
 fi
 
-if [ ! -d ~/Desktop/rfiles_shuffle ]; then
-	mkdir ~/Desktop/rfiles_shuffle
-fi
+mkdir ~/Desktop/$dirName
 
 IFS=$'\n'
 cd "$1"
-find . -maxdepth 2 -type f | gshuf -n$2 > /tmp/rfiles.txt
+find . -maxdepth 2 -type f | gshuf -n$3 > /tmp/rfiles.txt
 files=$(cat "/tmp/rfiles.txt")
-cp $files ~/Desktop/rfiles_shuffle
+cp $files ~/Desktop/$dirName
 
