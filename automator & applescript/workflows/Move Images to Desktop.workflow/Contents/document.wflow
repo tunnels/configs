@@ -59,13 +59,13 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>if [ ${1: -5} == ".jpeg" || ${1: -4} == ".jpg" || ${1: -4} == ".png" || ${1: -4} == ".gif"]
+					<string>if [ ${1: -5} == ".jpeg" ] || [ ${1: -4} == ".jpg" ] || [ ${1: -4} == ".png" ] || [ ${1: -4} == ".gif" ] 
 	then mv $1 ~/Desktop
 fi</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>shell</key>
 					<string>/bin/bash</string>
 					<key>source</key>
@@ -86,7 +86,7 @@ fi</string>
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>828B340F-EB90-4B6E-BD5E-733F9B46F4B3</string>
+				<string>5E1BC264-5EB6-49A2-9AD7-0AE2CC071DC9</string>
 				<key>Keywords</key>
 				<array>
 					<string>Shell</string>
@@ -96,9 +96,9 @@ fi</string>
 					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>2CA629A6-05D2-403E-B759-8D35F03BB696</string>
+				<string>F02FA83E-C26C-40AB-8DD5-3A40212A6A22</string>
 				<key>UUID</key>
-				<string>675466A3-C712-4034-9F4C-D0CA4D03CF6D</string>
+				<string>FE4DBB37-4432-4C9D-B569-9F4546B95120</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -171,12 +171,10 @@ fi</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>386.000000:185.000000</string>
+				<string>386.000000:253.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -188,8 +186,10 @@ fi</string>
 	<dict/>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>folderActionFolderPath</key>
+		<string>~/Downloads</string>
 		<key>workflowTypeIdentifier</key>
-		<string>com.apple.Automator.workflow</string>
+		<string>com.apple.Automator.folderAction</string>
 	</dict>
 </dict>
 </plist>
