@@ -1,8 +1,8 @@
 #!/bin/bash
 
-number=$RANDOM
-number=$[ $number % 14 + 1 ]
-
+#number=$RANDOM
+#number=$[ $number % 15 + 1 ]
+number=100
 if [ $number -eq 1 ]; then
   curl -X POST --data-urlencode 'payload={"channel": "#general", "username": "Brendan Fraser", "text": "JUST", "icon_emoji": ":just:"}' https://hooks.slack.com/services/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
 elif [ $number -eq 2 ]; then
@@ -29,4 +29,6 @@ elif [ $number -eq 12]; then
   curl -X POST --data-urlencode 'payload={"channel": "#general", "username": "Jonathon", "text": "Nobody cares", "icon_emoji": ":jon:"}' https://hooks.slack.com/services/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
 elif [ $number -eq 13 ]; then
   curl -X POST --data-urlencode 'payload={"channel": "#general", "username": "Wojak", "text": "tfw no gf", "icon_emoji": ":tfw:"}' https://hooks.slack.com/services/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
+elif [ $number -eq 14 ]; then
+  curl -X POST --data-urlencode 'payload={"channel": "#general", "username": "Jonathon", "text": "So what was the secret?", "icon_emoji": ":jon:"}' https://hooks.slack.com/services/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
 fi
