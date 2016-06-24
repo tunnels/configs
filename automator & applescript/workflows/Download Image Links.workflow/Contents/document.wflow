@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>417</string>
+	<string>419</string>
 	<key>AMApplicationVersion</key>
 	<string>2.6</string>
 	<key>AMDocumentVersion</key>
@@ -96,8 +96,6 @@
 				<array/>
 				<key>OutputUUID</key>
 				<string>067E6D5B-821C-4735-8A9F-C63B5CAEFFB7</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>2B99B723-97DD-4D80-86A5-8BAE4BF991B1</string>
 				<key>UnlocalizedApplications</key>
@@ -146,12 +144,10 @@
 						<string>2</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>386.000000:260.000000</string>
+				<string>309.000000:260.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -327,7 +323,7 @@ done
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>386.000000:443.000000</string>
+				<string>309.000000:534.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -416,8 +412,6 @@ done
 				<array/>
 				<key>OutputUUID</key>
 				<string>98051B9F-AB94-4E03-82B5-76B2F4225110</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>84FF59A0-3DBE-43DC-AA8B-5ABBEA48D0E6</string>
 				<key>UnlocalizedApplications</key>
@@ -469,7 +463,7 @@ done
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>386.000000:633.000000</string>
+				<string>309.000000:724.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -479,19 +473,19 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>AB883525-971D-4645-80AB-4DE586A0E51A</key>
-		<dict>
-			<key>from</key>
-			<string>2B99B723-97DD-4D80-86A5-8BAE4BF991B1 - 2B99B723-97DD-4D80-86A5-8BAE4BF991B1</string>
-			<key>to</key>
-			<string>8C90C61B-91DD-43D2-9E8D-06B79F143D42 - 8C90C61B-91DD-43D2-9E8D-06B79F143D42</string>
-		</dict>
-		<key>E95A7CF8-61A6-45F0-AD4A-4738B0796989</key>
+		<key>9DFAC61A-DE88-4A33-BCCA-F7BA2DF13589</key>
 		<dict>
 			<key>from</key>
 			<string>8C90C61B-91DD-43D2-9E8D-06B79F143D42 - 8C90C61B-91DD-43D2-9E8D-06B79F143D42</string>
 			<key>to</key>
 			<string>84FF59A0-3DBE-43DC-AA8B-5ABBEA48D0E6 - 84FF59A0-3DBE-43DC-AA8B-5ABBEA48D0E6</string>
+		</dict>
+		<key>F5D57B78-8F95-437E-A765-A47DC1B658B6</key>
+		<dict>
+			<key>from</key>
+			<string>2B99B723-97DD-4D80-86A5-8BAE4BF991B1 - 2B99B723-97DD-4D80-86A5-8BAE4BF991B1</string>
+			<key>to</key>
+			<string>8C90C61B-91DD-43D2-9E8D-06B79F143D42 - 8C90C61B-91DD-43D2-9E8D-06B79F143D42</string>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -514,9 +508,9 @@ done
 	<key>workflowMetaData</key>
 	<dict>
 		<key>serviceApplicationBundleID</key>
-		<string>com.apple.Safari</string>
+		<string></string>
 		<key>serviceApplicationPath</key>
-		<string>/Applications/Safari.app</string>
+		<string></string>
 		<key>serviceInputTypeIdentifier</key>
 		<string>com.apple.Automator.text.url</string>
 		<key>serviceOutputTypeIdentifier</key>

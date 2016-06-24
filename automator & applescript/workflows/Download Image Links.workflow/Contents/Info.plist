@@ -14,8 +14,6 @@
 			<string>runWorkflowAsService</string>
 			<key>NSRequiredContext</key>
 			<dict>
-				<key>NSApplicationIdentifier</key>
-				<string>com.apple.Safari</string>
 				<key>NSTextContent</key>
 				<string>URL</string>
 			</dict>
