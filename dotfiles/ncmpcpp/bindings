@@ -183,8 +183,9 @@
 #def_key "end"
 #  move_end
 #
-#def_key "space"
-#  press_space
+def_key "space"
+  select_item
+  scroll_down
 #
 #def_key "enter"
 #  press_enter

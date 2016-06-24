@@ -52,7 +52,7 @@
 ##
 #
 
-song_list_format = "{$6%l$9} {$7%20a$9  }{%t}{ $R$3%20b$9}|{$8%f$9} "
+song_list_format = "{$6%N$9} {$7%20a$9  }{%t}{ $R$3%20b$9}|{$8%f$9} "
 #song_status_format = "{{%a{ \"%b\"{ (%y)}} - }{%t}}|{%f}"
 #song_library_format = "{%n - }{%t}|{%f}"
 #tag_editor_album_format = "{(%y) }%b"
