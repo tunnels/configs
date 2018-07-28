@@ -41,6 +41,7 @@ alias m='ncmpcpp'
 alias ytd='youtube-dl'
 alias serve='./server'
 alias tada='./tada'
+alias rand='python ~/Scripts/rand.py'
 
 ### Aliases (rice) ###
 alias fetch='/usr/local/bin/screenfetch'
@@ -48,6 +49,7 @@ alias colors='/Users/alex/Scripts/colors.sh'
 alias faces='/Users/alex/Scripts/faces.sh'
 alias invaders='/Users/alex/Scripts/invaders.sh'
 alias pipes='/Users/alex/Scripts/pipes.sh'
+
 
 ### Search ###
 zle -N up-line-or-beginning-search
