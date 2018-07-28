@@ -16,6 +16,7 @@ PROMPT="%{$fg[green]%}%n@%{$fg[green]%}%m %{$fg[red]%}[%~]%{$reset_color%} $ " #
 ### Paths ###
 export PATH=~/.composer/vendor/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/alex/Scripts
 export FPATH=/usr/local/share/zsh/site-functions:$FPATH
+export DYLD_LIBRARY_PATH=/usr/local/Cellar/msp430-gcc/4.7.0/lib:$DYLD_LIBRARY_PATH
 
 ### Aliases ###
 alias ls='ls -G'
@@ -23,6 +24,8 @@ alias cdd='cd ~/Desktop/'
 alias cdh='cd $HOME'
 alias cdl='cd ~/Sites/ucp-laravel/'
 alias cds='cd ~/Scripts'
+alias cdp='cd ~/MSP430\ Playground'
+alias cdc='cd ~/C\ Programming'
 alias dupe='/Users/alex/Scripts/dupe.sh'
 alias webm='/Users/alex/Scripts/webm.sh'
 alias rfiles='/Users/alex/Scripts/rfiles.sh'
@@ -36,9 +39,11 @@ alias lvv=livestreamer_source
 alias mal='trackma'
 alias m='ncmpcpp'
 alias ytd='youtube-dl'
+alias serve='./server'
+alias tada='./tada'
 
 ### Aliases (rice) ###
-alias fetch='/usr/local/bin/screenfetch-dev'
+alias fetch='/usr/local/bin/screenfetch'
 alias colors='/Users/alex/Scripts/colors.sh'
 alias faces='/Users/alex/Scripts/faces.sh'
 alias invaders='/Users/alex/Scripts/invaders.sh'
@@ -62,6 +67,10 @@ mergev()
 mergeh()
 {
 	gm convert "$1" "$2" +append $3
+}
+nyaa()
+{
+	nyaa.sh "$1"
 }
 
 # Tell the terminal about the working directory whenever it changes.
