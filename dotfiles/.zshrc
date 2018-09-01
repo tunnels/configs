@@ -24,8 +24,8 @@ alias cdd='cd ~/Desktop/'
 alias cdh='cd $HOME'
 alias cdl='cd ~/Sites/ucp-laravel/'
 alias cds='cd ~/Scripts'
-alias cdp='cd ~/MSP430\ Playground'
-alias cdc='cd ~/C\ Programming'
+alias cdp='cd ~/Programming/'
+alias cdm='cd ~/Programming/MSP430'
 alias dupe='/Users/alex/Scripts/dupe.sh'
 alias webm='/Users/alex/Scripts/webm.sh'
 alias rfiles='/Users/alex/Scripts/rfiles.sh'
@@ -42,6 +42,11 @@ alias ytd='youtube-dl'
 alias serve='./server'
 alias tada='./tada'
 alias rand='python ~/Scripts/rand.py'
+
+### Aliases (git) ###
+alias gs='git status'
+alias gf='git fetch'
+alias gp='git pull'
 
 ### Aliases (rice) ###
 alias fetch='/usr/local/bin/screenfetch'
