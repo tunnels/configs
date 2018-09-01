@@ -1,1 +1,0 @@
-/Users/alex/Scripts/automator & applescript/workflows/Set Folder Icon.workflow
