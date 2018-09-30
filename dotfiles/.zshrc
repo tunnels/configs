@@ -10,8 +10,8 @@ autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
 
 ### Prompts ###
-#PROMPT="%{$fg[green]%}%m %{$fg[yellow]%}%~%{$reset_color%} › " #»
-PROMPT="%{$fg[green]%}%n@%{$fg[green]%}%m %{$fg[red]%}[%~]%{$reset_color%} $ " #»
+PROMPT="%{$fg[green]%}%m %{$fg[yellow]%}%~%{$reset_color%} › " #»
+#PROMPT="%{$fg[green]%}%n@%{$fg[green]%}%m %{$fg[red]%}[%~]%{$reset_color%} $ " #»
 
 ### Paths ###
 export PATH=~/.composer/vendor/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/alex/Scripts
